@@ -1,8 +1,9 @@
 .gridMeditation{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-    justify-content: space-between;
-    align-items: center;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+        justify-content: space-between;
+        align-items: center;
+    background-color: whitesmoke;
 }
 
 .gridMeditation .meditationImage img{
@@ -10,6 +11,7 @@
 }
 
 .meditationText h3{
+    margin-top: 100px;
     margin-bottom: 20px;
     color: #4c849e;
     font-size: 50px;
@@ -19,6 +21,7 @@
 
 .meditationText{
     padding-left: 30px;
+    
 }
 
 .meditationText h1{
@@ -35,7 +38,7 @@
 
 }
 
-
+    
 .meditationText button{
     background-color: #4c849e;
     color: #fff;
@@ -96,14 +99,14 @@
 
 .card{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     justify-content: center;
     align-items: center;
     padding: 20px;
 }
 
 .cardItems{
-    margin: 30px;
+    margin: 20px;
     background: #4c849e44;
     padding: 20px;
     border-radius: 10px;
@@ -123,3 +126,84 @@
     width: 80%;
 }
 
+.textPadding{
+    padding-right: 30px;
+}
+
+.practices{
+    width: 100%;
+    min-height: 80vh;
+    display: grid;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center; 
+    background-color: whitesmoke;
+}
+
+.practices h1{
+    font-size: 3vmax;
+    text-transform: uppercase;
+}
+
+.practices h1 span{
+    
+    font-size: 3.2vmax;    
+    color: #126D91;
+}
+
+
+.cardNextSection{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .practices h1{
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    
+    .practices h1 span{
+        font-size: 30px;
+    }
+}
+
+
+#teachers{
+    background-color: #126D91;
+    padding: 30px;
+}
+
+#teachers label h1{
+    color: white;
+    padding-bottom: 20px;
+}
+
+#teachers label span{
+    color: #193744;
+}
+
+#teachers label p{
+    color: white;
+}
+
+
+#teachersItems{
+    background-color: transparent;
+    overflow: hidden;
+}
+
+#teachersItems img{
+    width: 100%;
+}
+
+#teachersItems p{
+    color:#193744;
+}

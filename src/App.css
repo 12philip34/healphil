@@ -5,6 +5,10 @@
     scroll-behavior: smooth;
 }
 
+.App{
+  background-color: whitesmoke;
+}
+
 
 .back-to-top {
     position: fixed;
@@ -21,6 +25,11 @@
   
   .back-to-top:hover {
     background: red;
+  }
+
+  .meditationImg{
+    width: 100%;
+    padding: 40px;
   }
 
   @media only screen and (max-width: 768px) {

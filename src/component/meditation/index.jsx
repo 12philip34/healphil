@@ -4,8 +4,12 @@ import meditation from "../../images/Fitz - Sitting Meditation.png";
 import sleep from "../../images/Women Power - Bonding.png";
 import strength from "../../images/Fitz - Sitting Meditation.png";
 import posture from "../../images/Open Peeps - Sitting.png";
+import one from "../../images/hand-drawn-nft-style-ape-illustration_23-2149612191.jpg";
+import two from "../../images/hand-drawn-nft-style-ape-illustration_23-2149612194.jpg";
+import three from "../../images/hand-drawn-nft-style-ape-illustration_23-2149622021.jpg";
+import four from "../../images/hand-drawn-nft-style-ape-illustration_23-2149622024.jpg";
 
-function Meditation() {
+const Meditation = () => {
     return (
         <div>
             <section className='gridMeditation'>
@@ -51,28 +55,28 @@ function Meditation() {
                             <h3>Lorem ipsum dolor sit amet.</h3>
                             <p>
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                 Quaerat voluptatibus libero commodi saepe ad id debitis pariatur?
-                                  Nobis, vel quia.
+                                Quaerat voluptatibus libero commodi saepe ad id debitis pariatur?
+                                Nobis, vel quia.
                             </p>
                             <p>
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                 Quaerat voluptatibus libero commodi saepe ad id debitis pariatur?
-                                  Nobis, vel quia.
+                                Quaerat voluptatibus libero commodi saepe ad id debitis pariatur?
+                                Nobis, vel quia.
                             </p>
                         </div>
-                       
+
                         <div className="cardItems">
                             <img src={strength} alt="strength.png" />
                             <h3>Lorem ipsum dolor sit amet.</h3>
                             <p>
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                 Quaerat voluptatibus libero commodi saepe ad id debitis pariatur?
-                                  Nobis, vel quia.
+                                Quaerat voluptatibus libero commodi saepe ad id debitis pariatur?
+                                Nobis, vel quia.
                             </p>
                             <p>
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                 Quaerat voluptatibus libero commodi saepe ad id debitis pariatur?
-                                  Nobis, vel quia.
+                                Quaerat voluptatibus libero commodi saepe ad id debitis pariatur?
+                                Nobis, vel quia.
                             </p>
                         </div>
 
@@ -81,17 +85,194 @@ function Meditation() {
                             <h3>Lorem ipsum dolor sit amet.</h3>
                             <p>
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                 Quaerat voluptatibus libero commodi saepe ad id debitis pariatur?
-                                  Nobis, vel quia.
+                                Quaerat voluptatibus libero commodi saepe ad id debitis pariatur?
+                                Nobis, vel quia.
                             </p>
                             <p>
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                 Quaerat voluptatibus libero commodi saepe ad id debitis pariatur?
-                                  Nobis, vel quia.
+                                Quaerat voluptatibus libero commodi saepe ad id debitis pariatur?
+                                Nobis, vel quia.
                             </p>
                         </div>
                     </section>
                 </section>
+            </section>
+            <section className='gridMeditation'>
+                <label className="meditationImage">
+                    <img src={meditation} alt="meditation.png" />
+                </label>
+                <label className="meditationText textPadding">
+                    <h3>Healphil</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Adipisci at sapiente veniam eos, dolores nulla eveniet accusantium
+                        iusto cumque tempora totam ut hic modi accusamus reiciendis quos dolorem blanditiis ullam.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Adipisci at sapiente veniam eos, dolores nulla eveniet accusantium
+                        iusto cumque tempora totam ut hic modi accusamus reiciendis quos dolorem blanditiis ullam.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, non?
+                    </p>
+                </label>
+            </section>
+            <section className='practices'>
+                <label>
+                    <h1>our<span>practices</span></h1>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        m id officia tempore sequi praesentium perspiciatis!
+                        Quod ratione odit velit nemo haru
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Quod ratione odit velit nemo harum id officia tempore sequi praesentium perspiciatis!
+                    </p>
+                </label>
+            </section>
+            <section className='yogaCardBox'>
+                <section className="cardNextSection">
+                    <div className="cardItems">
+                        {/* <img src={sleep} alt="sleep.png" /> */}
+                        <h3>Lorem ipsum dolor</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Quaerat voluptatibus libero commodi saepe ad id debitis pariatur?
+                            Nobis, vel quia.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Quaerat voluptatibus libero commodi saepe ad id debitis pariatur?
+                            Nobis, vel quia.
+                        </p>
+                    </div>
+
+                    <div className="cardItems">
+                        {/* <img src={strength} alt="strength.png" /> */}
+                        <h3>Lorem ipsum .</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Quaerat voluptatibus libero commodi saepe ad id debitis pariatur?
+                            Nobis, vel quia.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Quaerat voluptatibus libero commodi saepe ad id debitis pariatur?
+                            Nobis, vel quia.
+                        </p>
+                    </div>
+
+                    <div className="cardItems">
+                        {/* <img className='imgsposture' src={posture} alt="posture.png" /> */}
+                        <h3>Lorem  sit amet.</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Quaerat voluptatibus libero commodi saepe ad id debitis pariatur?
+                            Nobis, vel quia.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Quaerat voluptatibus libero commodi saepe ad id debitis pariatur?
+                            Nobis, vel quia.
+                        </p>
+                    </div>
+                    <div className="cardItems">
+                        {/* <img className='imgsposture' src={posture} alt="posture.png" /> */}
+                        <h3>Lorem  sit amet.</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Quaerat voluptatibus libero commodi saepe ad id debitis pariatur?
+                            Nobis, vel quia.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Quaerat voluptatibus libero commodi saepe ad id debitis pariatur?
+                            Nobis, vel quia.
+                        </p>
+                    </div>
+                </section>
+            </section>
+            <section className='gridMeditation'>
+
+                <label className="meditationText textPadding">
+                    <h3>Healphil</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Adipisci at sapiente veniam eos, dolores nulla eveniet accusantium
+                        iusto cumque tempora totam ut hic modi accusamus reiciendis quos dolorem blanditiis ullam.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Adipisci at sapiente veniam eos, dolores nulla eveniet accusantium
+                        iusto cumque tempora totam ut hic modi accusamus reiciendis quos dolorem blanditiis ullam.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, non?
+                    </p>
+                </label>
+                <label className="meditationImage">
+                    <img src={meditation} alt="meditation.png" />
+                </label>
+            </section>
+            <section className='practices' id='teachers'>
+                <label>
+                    <h1>our<span>teachers</span></h1>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        m id officia tempore sequi praesentium perspiciatis!
+                        Quod ratione odit velit nemo haru
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Quod ratione odit velit nemo harum id officia tempore sequi praesentium perspiciatis!
+                    </p>
+                </label>
+            </section>
+            <section className="cardNextSection">
+                <div className="cardItems" id='teachersItems'>
+                    <img src={one} alt="teachers.png" />
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Quaerat voluptatibus libero commodi saepe ad id debitis pariatur?
+                        Nobis, vel quia.
+                    </p>
+                   
+                </div>
+
+                <div className="cardItems" id='teachersItems'>
+                    <img src={two} alt="teachers.png" />
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Quaerat voluptatibus libero commodi saepe ad id debitis pariatur?
+                        Nobis, vel quia.
+                    </p>
+                   
+                </div>
+
+                <div className="cardItems" id='teachersItems'>
+                    <img src={three} alt="teachers.png" />
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Quaerat voluptatibus libero commodi saepe ad id debitis pariatur?
+                        Nobis, vel quia.
+                    </p>
+                   
+                </div>
+                <div className="cardItems" id='teachersItems'>
+                    <img src={four} alt="teachers.png" />
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Quaerat voluptatibus libero commodi saepe ad id debitis pariatur?
+                        Nobis, vel quia.
+                    </p>
+                   
+                </div>
             </section>
         </div>
     )
